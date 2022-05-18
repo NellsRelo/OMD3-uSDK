@@ -17,7 +17,7 @@ class AOMDOnlineBeaconClient;
 class AOnlineBeaconHost;
 class AOMDOnlineBeaconHostObj;
 
-UCLASS(Abstract, BlueprintType)
+UCLASS(Abstract, BlueprintType, Blueprintable)
 class OMD_API UOMDOnlineManager : public UObject, public IOMDSingletonInterface {
     GENERATED_BODY()
 public:

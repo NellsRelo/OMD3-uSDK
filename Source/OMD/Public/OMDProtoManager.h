@@ -6,7 +6,7 @@
 
 class UDataTable;
 
-UCLASS(Abstract)
+UCLASS(Abstract, Blueprintable)
 class OMD_API UOMDProtoManager : public UObject, public IOMDSingletonInterface {
     GENERATED_BODY()
 public:

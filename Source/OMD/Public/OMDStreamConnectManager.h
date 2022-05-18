@@ -7,7 +7,7 @@
 class UMediaPlayer;
 class UTexture2D;
 
-UCLASS(Abstract, BlueprintType)
+UCLASS(Abstract, BlueprintType, Blueprintable)
 class OMD_API UOMDStreamConnectManager : public UObject, public IOMDSingletonInterface {
     GENERATED_BODY()
 public:

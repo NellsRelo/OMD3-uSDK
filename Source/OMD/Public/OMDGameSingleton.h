@@ -11,7 +11,7 @@ class UOMDWidgetManager;
 class UOMDStreamConnectManager;
 class UOMDDifficultyManager;
 
-UCLASS(Abstract)
+UCLASS(Abstract, Blueprintable)
 class OMD_API UOMDGameSingleton : public UObject {
     GENERATED_BODY()
 public:

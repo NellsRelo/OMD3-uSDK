@@ -6,7 +6,7 @@
 
 class AOMDMapVolume;
 
-UCLASS(Abstract)
+UCLASS(Abstract, Blueprintable)
 class OMD_API UOMDMapManager : public UObject, public IOMDSingletonInterface {
     GENERATED_BODY()
 public:

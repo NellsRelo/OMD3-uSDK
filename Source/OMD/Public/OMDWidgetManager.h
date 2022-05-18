@@ -9,7 +9,7 @@ class UOMDMessageBox;
 class UOMDAsyncModal;
 class UOMDModalWidget;
 
-UCLASS(Abstract)
+UCLASS(Abstract, Blueprintable)
 class OMD_API UOMDWidgetManager : public UObject, public IOMDSingletonInterface {
     GENERATED_BODY()
 public:
