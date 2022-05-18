@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NavPower",
+	"Description": "Stub of Official NavPower plugin for Modding use",
+	"Category": "Other",
+	"CreatedBy": "NellsRelo",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NavPower",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
