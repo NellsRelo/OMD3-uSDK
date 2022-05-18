@@ -81,3 +81,6 @@ SourceArt/**/*.tga
 WindowsNoEditor/
 Config/
 .idea/
+
+Content/Mods/*
+!Content/Mods/.gitkeep
