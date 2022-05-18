@@ -84,3 +84,5 @@ Config/
 
 Content/Mods/*
 !Content/Mods/.gitkeep
+Content/Maps/CustomMaps/*
+!Content/Maps/CustomMaps/.gitkeep
