@@ -40,6 +40,20 @@ TODO: Create a wiki page
 
 Maps appear to be comprised of multiple UE4 Levels, typically set up as MapName_Castle, MapName_Rain, etc. I've got no clue if Robot literally just made a bunch of distinct maps and somehow pieced them together, if it's a byproduct of some internal tool, or if it's just some UE4 quirk that generates multiple maps based on some kind of organization of assets within the level itself - worth exploring.
 
+At this time, Enemy AI and Navigation isn't well understood, so while we can spawn enemies, having them head to the rift or attack doesn't yet work as expected.
+
+To allow enemies to spawn, you need at minimum these two things:
+
+- An Onslaught Blueprint from `Data\Onslaughts`
+- An AISpawner Blueprint
+
+You will also want to drop in some of these:
+
+- A Rift Blueprint
+- Environmental object blueprints, to ensure you aren't falling into the void, and so you can place traps.
+
+Custom onslaughts are not yet possible, though default onslaughts work.
+
 
 ## Credits & Acknowledgements
 - Special thanks to Robot Entertainment for creating the Orcs Must Die! series
