@@ -43,6 +43,7 @@ DerivedDataCache/*
 *.pskx
 *.fbx
 *.mat
+*.tga
 
 # Compiled Object files
 *.slo
