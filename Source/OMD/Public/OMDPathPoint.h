@@ -12,7 +12,7 @@ class OMD_API AOMDPathPoint : public ATargetPoint {
     GENERATED_BODY()
 public:
 protected:
-    UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
     AOMDAIPath* ParentPath;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
