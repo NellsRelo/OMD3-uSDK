@@ -78,7 +78,6 @@ DerivedDataCache/*
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
-
 WindowsNoEditor/
 Config/
 .idea/
