@@ -1,10 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "NavigationData.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=NavigationData -FallbackName=NavigationData
 #include "NavPowerNavigationData.generated.h"
 
-UCLASS(NotPlaceable, Config=NavPower)
+UCLASS(Config=NavPower)
 class NAVPOWER_API ANavPowerNavigationData : public ANavigationData {
     GENERATED_BODY()
 public:
