@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "ENavMoverState.generated.h"
 
-UENUM()
-enum class ENavMoverState {
+UENUM(BlueprintType)
+enum class ENavMoverState : uint8 {
     Invalid,
     Active,
     Frozen,

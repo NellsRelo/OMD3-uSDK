@@ -1,20 +1,23 @@
 using UnrealBuildTool;
 
-public class NavPower : ModuleRules {
-    public NavPower(ReadOnlyTargetRules Target) : base(Target) {
+public class OMDLoadingScreen : ModuleRules {
+    public OMDLoadingScreen(ReadOnlyTargetRules Target) : base(Target) {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         bLegacyPublicIncludePaths = false;
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
-            "AIModule",
             "Core",
             "CoreUObject",
             "DeveloperSettings",
             "Engine",
-            "GameplayTags",
-            "GameplayTasks",
-            "NavigationSystem",
+            "InputCore",
+            "MovieScene",
+            "MovieSceneTracks",
+            "PropertyPath",
+            "Slate",
+            "SlateCore",
+            "UMG", "UMG",
         });
     }
 }

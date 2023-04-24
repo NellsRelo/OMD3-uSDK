@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "ENavMoveResult.generated.h"
 
-UENUM()
+UENUM(BlueprintType)
 enum class ENavMoveResult : uint8 {
     Success,
     Partial,

@@ -1,7 +1,7 @@
 #include "NavPowerAIController.h"
 
-class UObject;
 class AActor;
+class UObject;
 
 void ANavPowerAIController::SetUses3DMovement(bool b3DMovement) {
 }

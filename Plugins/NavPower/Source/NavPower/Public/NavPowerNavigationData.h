@@ -1,27 +1,28 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "NavigationData.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=NavigationData -FallbackName=NavigationData
 #include "NavPowerNavigationData.generated.h"
 
-UCLASS(Config=NavPower)
+UCLASS(Blueprintable, NotPlaceable, Config=NavPower)
 class NAVPOWER_API ANavPowerNavigationData : public ANavigationData {
     GENERATED_BODY()
 public:
-    UPROPERTY(Config, EditAnywhere)
+    UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bIsPrimaryNavData: 1;
     
-    UPROPERTY(Config, EditAnywhere)
+    UPROPERTY(Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint32 NavPowerLayerIndex;
     
-    UPROPERTY()
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     uint32 NavMeshBufferSize;
     
-    UPROPERTY()
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     uint32 NavVolumesBufferSize;
     
     ANavPowerNavigationData();
 protected:
-    UFUNCTION()
+    UFUNCTION(BlueprintCallable)
     void OnCheckRenderFlag();
     
 };

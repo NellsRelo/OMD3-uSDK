@@ -9,7 +9,7 @@ struct OMD_API FOMDRandomModeModifierEntry : public FOMDRandomModeEntryBase {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadOnly, EditDefaultsOnly)
-    FOMDSoftProtoPtr modifier;
+    FOMDSoftProtoPtr Modifier;
     
     FOMDRandomModeModifierEntry();
 };
