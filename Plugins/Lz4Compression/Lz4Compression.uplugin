@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LZ4 network compression",
+	"Description": "Runtime network compression using LZ4.",
+	"Category": "Networking",
+	"CreatedBy": "Robot Entertainment, Inc.",
+	"CreatedByURL": "https://robotentertainment.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedPrograms": [
+		"UnrealPak"
+	]
+}
